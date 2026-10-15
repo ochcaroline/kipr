@@ -158,6 +158,7 @@ final class PickerContentView: NSView, NSSearchFieldDelegate {
         addSubview(background)
         searchField.font = .systemFont(ofSize: 26)
         searchField.textColor = .labelColor
+        (searchField.cell as? NSSearchFieldCell)?.searchButtonCell = nil
         searchField.isBordered = false
         searchField.bezelStyle = .roundedBezel
         searchField.placeholderString = ""

@@ -1,6 +1,26 @@
 # Kipr
 
-Keyboard-first macOS picker.
+Keyboard-first macOS picker and hotkey daemon.
+
+App picker (⌥+space):<br>
+![](./img/app-picker.png)
+
+Wallpaper picker (⌥+space -> wallpaper):<br>
+![](./img/wallpaper-picker.jpeg)
+
+### Why does it exists?
+
+I saw Omarchy picker and was actually amazed on how smoothly it worked. I love spotlight, but I also love mouse-less navigation.
+So I tasked LLM to do something similar, also very opinionated, but working on macOS natively.
+
+### What does it do
+
+**App picker** is predefined app picker :) But - it also shows keymaps that are used to spawn/switch to these apps.
+
+**Wallpaper picker** exists purely because I'm bored by wallpapers often, but I switch back to the ones I was already using :)
+
+**Hotkey daemon** apart from monitoring for user-defined keymaps for apps it listens to combinations like ctrl+opt+h/l/enter for placing windows on screen.
+See [Windows management](#window-management)
 
 ## Requirements
 
