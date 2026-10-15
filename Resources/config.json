@@ -1,0 +1,29 @@
+{
+  "pickerShortcut": {
+    "key": "space",
+    "modifiers": ["option"]
+  },
+  "windowGap": 8,
+  "actions": {
+    "Ghostty": { "type": "application", "path": "/Applications/Ghostty.app", "shortcut": "cmd+alt+1" },
+    "Zen": { "type": "application", "path": "/Applications/Zen.app", "shortcut": "cmd+alt+2" },
+    "Obsidian": { "type": "application", "path": "/Applications/Obsidian.app", "shortcut": "cmd+alt+3" },
+    "Bruno": { "type": "application", "path": "/Applications/Bruno.app", "shortcut": "cmd+alt+4" },
+    "Music": { "type": "application", "path": "/System/Applications/Music.app", "shortcut": "cmd+alt+5" },
+    "KeePassXC": { "type": "application", "path": "/Applications/KeePassXC.app", "shortcut": "cmd+alt+6" },
+    "Docker": { "type": "application", "path": "/Applications/Docker.app/Contents/MacOS/Docker Desktop.app", "shortcut": "cmd+alt+7" },
+    "DataGrip": { "type": "application", "path": "/Applications/DataGrip.app", "shortcut": "cmd+alt+8" },
+    "Microsoft Teams": { "type": "application", "path": "/Applications/Microsoft Teams.app", "shortcut": "cmd+alt+9" },
+    "Microsoft Outlook": { "type": "application", "path": "/Applications/Microsoft Outlook.app", "shortcut": "cmd+alt+0" },
+    "Helium": { "type": "application", "path": "/Applications/Helium.app", "shortcut": "cmd+alt+h" },
+    "Terminal": { "type": "command", "command": "open -a Terminal" },
+    "Safari": { "type": "command", "command": "open -a Safari" },
+    "Wallpaper": { "type": "wallpaper" },
+    "Utilities": {
+      "type": "submenu",
+      "items": {
+        "Activity Monitor": { "type": "command", "command": "open -a 'Activity Monitor'" }
+      }
+    }
+  }
+}
